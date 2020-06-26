@@ -1,0 +1,77 @@
+@charset="utf-8";
+ * {margin: 0; padding: 0;}
+html, body{width: 100%;
+font-family: 'Noto Sans KR', sans-serif;}
+
+::-moz-selection{background: #E6E6E6; color: #151515;}
+::selection {background: #E6E6E6; color: #151515;}
+
+::-webkit-scrollbar{width: 17px;}
+::-webkit-scrollbar-thumb {background-color: #151515; border-radius: 10px; background-clip: padding-box; border: 2px solid transparent;}
+::-webkit-scrollbar-thumb:hover{background-color: #e03131;}
+::-webkit-scrollbar-track {background-color: #FAFAFA;}
+
+
+.logo_form{height: 75px; background-color: #151515; text-align: center;}
+.logotext_from{color: #e03131; font-family: 'Notable', sans-serif; font-size: 40px; font-weight: 900; letter-spacing: 5px; position: relative; top: 7px;}
+
+.logotext_from a:link{text-decoration: none; color: #e03131;}
+.logotext_from a:visited{color: #e03131;}
+.logotext_from a:active{color: #e03131;}
+.logotext_from a:hover{color: #e03131;}
+
+.menu_from{height: 41px; background-color: #151515; text-align: center;}
+.menutext_from{display: inline-block; margin: 5px 30px 30px 20px; font-size: 18px; font-family: 'Noto Sans KR', sans-serif; font-weight: 600;}
+
+.menutext_from a:link{text-decoration: none; color: #F2F2F2;}
+.menutext_from a:visited{color: #FAFAFA;}
+.menutext_from a:active{color: #FAFAFA;}
+.menutext_from a:hover{color: #e03131; transition: 0.3s;}
+
+#pr{height: 600px; width: 100%; background-size: cover;}
+/* background-attachment: fixed; overflow: hidden;*/
+.p1{background-image: url(../img/bg01.jpg);}
+.p2{background-image: url(../img/bg02.jpg);}
+.p3{background-image: url(../img/bg03.jpg);}
+
+.posi{text-align: center; position: relative; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%)}
+.posi :hover{transform: scale(1.15); transition: 0.8s;}
+
+.footer_from{height: 70px; background-color: #151515;}
+.footertext_from{color: #FAFAFA; font-size: 15px; font-weight: 400; text-align: center; position: relative; top: 35%; text-transform: uppercase;}
+
+/*서브페이지1*/
+.p01_top{background-image: url(../img/sub01_main_img.jpg); height: 400px; background-size: cover;}
+
+.introduce{width: 100%; height: 800px; background-color: #fff;}
+
+.name_en{font-family: 'Nanum Myeongjo', serif; font-weight: 800; font-size: 45px; text-align: center; padding-top: 80px;}
+.name_kr{font-family: 'Nanum Myeongjo', serif; font-weight: 800; font-size: 25px; text-align: center; padding-top: 5px;}
+.ancestry{font-weight: 600; font-size: 18px; text-align: center; padding-top: 50px;}
+.career{color: #848484; font-weight: 600; font-size: 20px; text-align: center; padding-top: 50px; }
+.about{text-align: center; padding-top: 50px;}
+
+/*서브페이지2*/
+.p02_top{background-image: url(../img/sub02_main_img.jpg); height: 400px; background-size: cover;}
+
+.masterpiece{width: 100%; min-height: 4550px; background-color: #fff;}
+
+.art_work{text-align: center; padding-top: 55px;}
+.art_work img{width: 400px; height: auto;}
+.art_name{font-weight: 600; margin-top: 15px; font-size: 15px;}
+.art_date{color: #555;}
+
+/*서브페이지3*/
+.p03_top{background-image: url(../img/sub03_main_img.jpg); height: 400px; background-size: cover;}
+
+.contact{width: 100%; height: 550px; background-color: #fff; text-align: center;}
+
+.contact_title{font-size: 22px; padding-top: 80px; font-weight: 900;}
+.email{font-family: 'Nanum Myeongjo', serif; font-size: 50px; font-weight: 700; padding-top: 5px;}
+.email a{color: #f03e3e; text-decoration: none;}
+.email a:hover{color: #000; transition: all 0.4s; border-bottom: 1.3px solid #000;}
+.country{color: #555; padding-top: 5px;}
+.sns_title{font-weight: 600; padding-top: 60px; padding-bottom: 10px;}
+.sns{padding-top: 5px;}
+.sns a{border-bottom: 1.3px solid #e03131; color: #000; text-decoration: none;}
+.sns a:hover{color: #e03131; transition: all 0.4s;}
